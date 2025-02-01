@@ -1,0 +1,4 @@
+#  conda create --name NAME  python=3.8
+# conda activate NAME
+
+# pip freeze -> requirements.txt
