@@ -6,7 +6,7 @@ import numpy as np
 model = keras.models.load_model('snake_venomous_model.h5')
 
 # Load an image to test
-img_path = 'sn2.jpg'  # Update with the path to the new image
+img_path = 'sp.jpg'  # Update with the path to the new image
 img = image.load_img(img_path, target_size=(128, 128))
 
 # Convert image to array and preprocess

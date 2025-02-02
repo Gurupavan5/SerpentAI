@@ -1,6 +1,5 @@
 #  conda create --name NAME  python=3.8
 # conda activate NAME
 
-# pip freeze -> requirements.txt
+# pip freeze -> requirements.txt    //it shows the all required extensions to be installed what you have used 
 
-#test

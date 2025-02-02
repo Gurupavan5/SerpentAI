@@ -33,12 +33,13 @@ model.summary()
 
 
 # Define paths
-train_dir = "/Users/gurupavan/Documents/project/dataset"
-val_dir = "/Users/gurupavan/Documents/project/dataset"
+train_dir = "/Users/gurupavan/Documents/SERPENTAI/models"
+val_dir = "/Users/gurupavan/Documents/SERPENTAI/models"
 
 # Data augmentation & normalization
 train_datagen = ImageDataGenerator(rescale=1./255, rotation_range=20, zoom_range=0.2, horizontal_flip=True)
 val_datagen = ImageDataGenerator(rescale=1./255)
+
 
 # Load images from directories
 train_generator = train_datagen.flow_from_directory(
